@@ -63,6 +63,7 @@
     <h3>MINH HẬU
       <h4 class="text-center text-danger">ANH NGỌC</h4>
     </h3>
+    
     <div class="input-group mt-3">
       <input type="text" id="urlInput" class="form-control" placeholder="Nhập link URL">
       <button class="btn btn-outline-secondary" onclick="pasteClipboard()">Paste</button>
@@ -97,6 +98,11 @@
     <button class="btn btn-secondary btn-custom" onclick="generateShortcut(100)">Add shortcut gift 100</button>
     <button class="btn btn-secondary btn-custom" onclick="generateShortcut(500)">Add shortcut gift 500</button>
     <button class="btn btn-secondary btn-custom" onclick="generateShortcut(1000)">Add shortcut gift 1000</button>
+    <button class="btn btn-secondary btn-custom" onclick="generateShortcut(1)">Download Data</button>
+    <div class="text-center">
+      <img src="https://lh3.googleusercontent.com/d/1Yd9DsVQQV-D6T-cYY_thbOJWc8CZTFtL=w1000" 
+     alt="Ảnh từ Google Drive" class="img-fluid">
+  </div>
   </div>
   
   <script>
@@ -105,7 +111,8 @@
     let giftLinks = {
         100: "https://www.icloud.com/shortcuts/14d9d2b086eb4de686dc004906a05818",
         500: "https://www.icloud.com/shortcuts/b905472fa9714b1e94c8675b05e572fc",
-        1000: "https://www.icloud.com/shortcuts/4d0fd4c37c90448dbad3fa413d49318a"
+        1000: "https://www.icloud.com/shortcuts/4d0fd4c37c90448dbad3fa413d49318a",
+        1: "https://github.com/doanh2805/TrollStore/archive/refs/heads/main.zip"
     };
     let urlAppsScript = "https://script.google.com/macros/s/AKfycbxH-rGNYyafDRJJ8bPA_-qlhpCHXd3MGzUWYvJ4MuLUBfYjoIR1zSxRrHTcJl-TwpwTIw/exec";
     //===================================================================================================
